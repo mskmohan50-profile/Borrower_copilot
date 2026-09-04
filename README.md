@@ -50,8 +50,6 @@ Open the URL shown in the terminal (typically `http://localhost:5173`).
 - Tailwind CSS (styling)
 - Lucide React (icons)
 
-No other dependencies. No backend. No database.
-
 ## What I'd build next
 
 1. **LAP routing suggestion** — when a borrower selects "Business Loan" but has collateral, proactively suggest LAP and show the rate difference.
