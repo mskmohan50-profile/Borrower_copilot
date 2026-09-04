@@ -16,12 +16,6 @@ npm install
 npm run dev
 ```
 
-Open the URL shown in the terminal (typically `http://localhost:5173`).
-
-**Requirements:** Node.js 18+ and npm.
-
-**Time to run:** Under 2 minutes (install + dev server).
-
 ## How it works
 
 1. **Welcome screen** — explains the four outputs and the negotiation card.
