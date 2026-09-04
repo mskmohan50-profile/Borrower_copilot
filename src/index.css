@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --paper: #F1EEE2;
+  --paper-dark: #E6E0C9;
+  --spine: #14bdf0;
+  --spine-dark: #4E1219;
+  --ink: #1E2A38;
+  --ink-light: #5B6779;
+  --rule: #C9C1A6;
+  --gold: #A6862E;
+  --seal-green: #2F6F4E;
+  --seal-amber: #A9762A;
+  --seal-red: #A13D2C;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+  background-color: var(--paper);
+  color: var(--ink);
+}
+
+::selection {
+  background: var(--gold);
+  color: #fff;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type='number'] {
+  appearance: none;
+  -moz-appearance: textfield;
+}
+
+:focus-visible {
+  outline: 2px solid var(--spine);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
